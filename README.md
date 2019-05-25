@@ -6,7 +6,7 @@
 
 Kitematic is a simple application for managing Docker containers on Mac, Linux and Windows.
 
-![alt text](https://github.com/EricCanull/kitematic/tree/master/images/kitematic-dark-01.png "Kitematic Screen Shot")
+![alt text](https://github.com/EricCanull/kitematic/blob/master/images/kitematic-dark-01.png?raw=true "Kitematic Screen Shot")
 
 ## Installing Kitematic
 
