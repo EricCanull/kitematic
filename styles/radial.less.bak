@@ -23,7 +23,7 @@
   // @percentage-color: #3FD899;
   @percentage-font-size: 24px;
   @percentage-text-width: 57px;
-  background: #1b1b1b;
+  background: white;
   margin: 0 auto;
 
   width:  @circle-size;

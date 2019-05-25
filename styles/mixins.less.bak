@@ -1,7 +1,7 @@
 .traffic-light() {
   box-sizing: border-box;
   display: inline-block;
-  background: #1b1b1b;
+  background: white;
   margin-right: 8px;
   height: 12px;
   width: 12px;

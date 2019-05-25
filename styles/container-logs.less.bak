@@ -1,0 +1,45 @@
+.details-panel.logs {
+  background-color: @gray-darkest;
+  -webkit-user-select: text;
+  font-family: @font-code;
+  font-size: 12px;
+  padding: 20px 18px;
+  color: @gray-lightest;
+  white-space: pre-wrap;
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.button, select {
+  background: #131313;
+}
+
+.copy-logs__btn, .save-logs__btn {
+  float: left;
+  border: 0;
+}
+
+.follow-logs__label {
+  float: left;
+  margin: 3px 5px;
+  color: #eee;
+}
+
+.logs-font-size__select {
+  float: left;
+  -webkit-border-radius: 0;
+  outline: #131313 solid thick;
+  outline-offset: -5px;
+  height: 25px;
+  margin-right: 4px;
+}
+
+.save-logs__btn {
+  height: 25px;
+  margin-right: 4px;
+}
+.save-logs__btn:hover {
+  -webkit-box-shadow: 0 0 2px 0 #FFF;
+  background-color: rgba(255, 255, 255, .3);
+}
