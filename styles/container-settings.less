@@ -2,7 +2,7 @@
   display: flex;
   flex: 1 auto;
   flex-direction: column;
-  background-color: white;
+  background-color: @logs-bg;
   margin: 1rem;
   margin-bottom: 0;
   border: 1px solid @color-divider;
@@ -78,6 +78,8 @@
       input {
         width: 55%;
         max-width: 500px;
+        background: #212121;
+        color: 16bb32;
       }
       .btn-copy {
         border: none;
@@ -129,11 +131,15 @@
       margin-bottom: 20px;
       .keyval-row {
         margin-bottom: 5px;
+        background: #212121;
+        color: #a1a1a1;
       }
       input {
         margin-right: 30px;
         &.key {
           width: 30%;
+          background: #212121;
+          color: #a1a1a1;
         }
         &.val {
           width: 50%;
@@ -145,6 +151,8 @@
         input {
           width: 50px;
           border: 0;
+          background: #212121;
+          color: #a1a1a1;
         }
         tr {
           td {

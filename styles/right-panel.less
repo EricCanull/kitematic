@@ -49,7 +49,7 @@
     position: relative;
     border-bottom: 1px solid @color-divider;
     border-radius: @border-radius;
-    background-color: white;
+    background-color: @logs-bg;
     top: -1px;
     font-size: 10px;
     padding-left: 0.3rem;
@@ -74,8 +74,8 @@
         }
         //border-right: 1px solid @color-divider;
         &.disabled {
-          background-color: white;
-          color: fade(@gray-light, 20%);
+          background-color: transparent;
+          color: rgb(21, 204, 53);
         }
         .action-icon {
           text-align: center;
